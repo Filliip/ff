@@ -4,12 +4,12 @@ import { Link } from "react-router-dom"
 export default function Home() {
   return (
     <>
-      <h1>Home page</h1>
-      <Link to={"/create-lights"}>
-        <p>Create light</p>
+      <h1>Cake shop</h1>
+      <Link to={"/create-cakes"}>
+        <p>Create cake</p>
       </Link>
-      <Link to={"/lights"}>
-        <p>show lights</p>
+      <Link to={"/cakes"}>
+        <p>Show cake</p>
       </Link>
 
       </>
