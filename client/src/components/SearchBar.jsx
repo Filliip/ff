@@ -24,7 +24,6 @@ export default function SearchBar({setResults}) {
   return (
     <>
       <div className="input-wrapper"></div>
-      <FaBeer id="search-icon" />
       <input
         placeholder="Type to search..."
         value={input}
