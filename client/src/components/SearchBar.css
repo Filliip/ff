@@ -1,0 +1,21 @@
+
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 90%;
+    font-size: 1.25rem;
+    background-color: rgb(240, 209, 241);
+    border-radius: 10px;
+    padding: 0 15px;
+    box-shadow: 0px 0px 8px #000000;
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: -45px;
+}
+
+input:focus {
+    outline: none;
+}
+
