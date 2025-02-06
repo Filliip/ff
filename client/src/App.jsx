@@ -1,23 +1,14 @@
-import React, { useState } from "react";
-import Approutes from "./pages/Approutes";
-import SearchBar from "./components/SearchBar";
-import SearchResultList from "./components/SearchResultList";
+import Navbar from "./components/Navbar/Navbar";
+
+
 
 export default function App() {
-  const [results, setResults] = useState([]);
-
-  return (
-    <>
-      <div className="App">
-        <div className="search-bar-container">
-          <SearchBar setResults={setResults} />
-          <SearchResultList results={results} />
-        </div>
-      </div>
-
-      
-
-      <Approutes />
-    </>
-  );
-}
+    return (
+     <>
+     <main className="overflow-x-hidden">
+        <Navbar />
+     </main>
+     
+     </>
+    );
+  }
